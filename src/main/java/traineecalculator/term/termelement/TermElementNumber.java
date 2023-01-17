@@ -14,7 +14,7 @@ public class TermElementNumber extends TermElement {
     public TermElementNumber(TermPoint point) throws CalculatorException {
         super();
         if (point.isANumber()) {
-            stringValue = String.valueOf(point.getToken());
+            stringValue = String.valueOf(point.token());
             numbervalue = new BigDecimal(stringValue);
             previousPointState = PreviousPointState.NUMBER;
         } else {
@@ -44,7 +44,7 @@ public class TermElementNumber extends TermElement {
     }
 
     private void appendNumber(TermPoint rearPosition) {
-        stringValue = stringValue + rearPosition.getToken();
+        stringValue = stringValue + rearPosition.token();
         numbervalue = new BigDecimal(stringValue);
     }
 

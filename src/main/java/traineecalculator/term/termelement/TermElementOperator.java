@@ -9,7 +9,7 @@ public class TermElementOperator extends TermElement {
 
     public TermElementOperator(TermPoint point) throws CalculatorException {
         super();
-        stringValue = String.valueOf(point.getToken());
+        stringValue = String.valueOf(point.token());
         if (point.isAOperator()) {
             operator = Operator.valueOfSign(stringValue);
         } else {

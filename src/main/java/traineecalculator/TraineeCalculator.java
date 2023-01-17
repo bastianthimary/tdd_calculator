@@ -136,7 +136,7 @@ public class TraineeCalculator {
         if (previousTermElement instanceof TermElementOperator) {
             throw new CalculatorException();
         }
-        currentOperator = Operator.valueOfSign(String.valueOf(currentTermPoint.getToken()));
+        currentOperator = Operator.valueOfSign(String.valueOf(currentTermPoint.token()));
         previousTermElement = new TermElementOperator(currentTermPoint);
     }
 }
