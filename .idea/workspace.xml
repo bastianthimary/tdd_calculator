@@ -4,21 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082aaf8e-9cc9-40e1-96da-958739a22c76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="082aaf8e-9cc9-40e1-96da-958739a22c76" name="Changes" comment="projekt angelegt">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/CalculatorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/TDDKataCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/TraineeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/PreviousPointState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/Term.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termelement/TermElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termelement/TermElementNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termelement/TermElementOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termpoint/TermPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termpoint/TermPointSeperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/traineecalculator/TDDKataCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/traineecalculator/TraineeCalculatorArgumentsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/traineecalculator/TraineeCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/casesForTDDKataCalculatorTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="820f9d44-6a29-4f7a-b472-d39bfee046cb" />
+        <option name="url" value="https://github.com/bastianthimary/tdd_calculator.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,6 +63,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2KDvZxakTMSmlJYyHcOKOGlLdyJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,9 +77,96 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="traineecalculator.aterm" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bastian Binaris\IdeaProjects\tdd_calculator\src\test\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="traineecalculator" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TraineeCalculatorTest.testTypingNewTerm">
+    <configuration name="TDDKataCalculatorTest.addNumbersWithNewLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <option name="PACKAGE_NAME" value="traineecalculator" />
+      <option name="MAIN_CLASS_NAME" value="traineecalculator.TDDKataCalculatorTest" />
+      <option name="METHOD_NAME" value="addNumbersWithNewLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraineeCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <option name="PACKAGE_NAME" value="traineecalculator" />
+      <option name="MAIN_CLASS_NAME" value="traineecalculator.TraineeCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraineeCalculatorTest.testTypingNewTerm (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traineecalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="traineecalculator" />
+      <option name="MAIN_CLASS_NAME" value="traineecalculator.TraineeCalculatorTest" />
+      <option name="METHOD_NAME" value="testTypingNewTerm(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraineeCalculatorTest.testTypingNewTerm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <option name="PACKAGE_NAME" value="traineecalculator" />
+      <option name="MAIN_CLASS_NAME" value="traineecalculator.TraineeCalculatorTest" />
+      <option name="METHOD_NAME" value="testTypingNewTerm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraineeCalculatorTest.typingSingleNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <option name="PACKAGE_NAME" value="traineecalculator" />
+      <option name="MAIN_CLASS_NAME" value="traineecalculator.TraineeCalculatorTest" />
+      <option name="METHOD_NAME" value="typingSingleNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TraineeCalculatorTest.testTypingNewTerm" />
+        <item itemvalue="JUnit.TraineeCalculatorTest.testTypingNewTerm (1)" />
+        <item itemvalue="JUnit.TraineeCalculatorTest" />
+        <item itemvalue="JUnit.TraineeCalculatorTest.typingSingleNumber" />
+        <item itemvalue="JUnit.TDDKataCalculatorTest.addNumbersWithNewLine" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +176,62 @@
       <option name="presentableId" value="Default" />
       <updated>1673522028401</updated>
     </task>
+    <task id="LOCAL-00001" summary="projekt angelegt">
+      <created>1673524633239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673524633239</updated>
+    </task>
+    <task id="LOCAL-00002" summary="projekt angelegt">
+      <created>1673524646435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673524646435</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="projekt angelegt" />
+    <option name="LAST_COMMIT_MESSAGE" value="projekt angelegt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/traineecalculator/TraineeCalculator.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/traineecalculator/TraineeCalculator.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tdd_calculator$TraineeCalculatorTest_testTypingNewTerm__1_.ic" NAME="TraineeCalculatorTest.testTypingNewTerm (1) Coverage Results" MODIFIED="1673951146306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>traineecalculator.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/tdd_calculator$calculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1673593744450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
