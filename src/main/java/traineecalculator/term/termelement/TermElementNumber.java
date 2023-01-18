@@ -18,11 +18,11 @@ public class TermElementNumber extends TermElement {
             numbervalue = new BigDecimal(stringValue);
             previousPointState = PreviousPointState.NUMBER;
         } else {
-            errorReport();
+            reportError();
         }
     }
 
-    private void errorReport() throws CalculatorException {
+    private void reportError() throws CalculatorException {
         throw new CalculatorException();
     }
 
@@ -39,7 +39,7 @@ public class TermElementNumber extends TermElement {
             }
             appendNumber(rearPosition);
         } else {
-            errorReport();
+            reportError();
         }
     }
 
@@ -49,7 +49,7 @@ public class TermElementNumber extends TermElement {
     }
 
     private void appendWhitespace() throws CalculatorException {
-        errorReport();
+        reportError();
     }
 
     private boolean previousPointIsAWhitespace() {

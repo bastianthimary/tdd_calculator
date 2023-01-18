@@ -32,9 +32,9 @@ public class TraineeCalculator {
     private void calculateTerm() throws CalculatorException {
         currentResultValue = BigDecimal.ZERO;
         for (TermPoint currentPoint : term.getTermPoints()) {
-            currentTermPoint =currentPoint;
+            currentTermPoint = currentPoint;
             calcIfPracticable();
-            parseCharAsPreviousTermElement();
+            parseCurrentTermPoint();
         }
         calculateTillCurrentPosition();
     }
@@ -88,7 +88,7 @@ public class TraineeCalculator {
         }
     }
 
-    private void parseCharAsPreviousTermElement() throws CalculatorException {
+    private void parseCurrentTermPoint() throws CalculatorException {
         //TODO: If Clauses vermeiden aber wie?
         if (currentTermPoint.isAWhitespace()) {
             parseWhitespace();
@@ -103,19 +103,17 @@ public class TraineeCalculator {
         }
     }
 
-
     private void parseWhitespace() {
         if (previousTermElement instanceof TermElementNumber) {
             ((TermElementNumber) previousTermElement).setPreviousPointAsWhitespace();
         }
     }
 
-
     private void parseNumber() throws CalculatorException {
-        fillPreviousATermWithNumber();
+        fillPreviousTermElementWithNumber();
     }
 
-    private void fillPreviousATermWithNumber() throws CalculatorException {
+    private void fillPreviousTermElementWithNumber() throws CalculatorException {
         if (previousTermElement == null || previousTermElement instanceof TermElementOperator) {
             previousTermElement = new TermElementNumber(currentTermPoint);
         } else if (previousTermElement instanceof TermElementNumber) {
@@ -126,7 +124,6 @@ public class TraineeCalculator {
     private boolean checkDecimalSeperatorConditions() {
         return currentTermPoint.isADecimalSeparator() && previousTermElement instanceof TermElementNumber;
     }
-
 
     private void parseDigitalSeperator() {
         ((TermElementNumber) previousTermElement).setPreviousPointAsSeperator();

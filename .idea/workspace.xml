@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082aaf8e-9cc9-40e1-96da-958739a22c76" name="Changes" comment="projekt angelegt">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/CalculatorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/TDDKataCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/TraineeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/PreviousPointState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/Term.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termelement/TermElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termelement/TermElementNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termelement/TermElementOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termpoint/TermPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termpoint/TermPointSeperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/traineecalculator/TDDKataCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/traineecalculator/TraineeCalculatorArgumentsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/traineecalculator/TraineeCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/casesForTDDKataCalculatorTest.csv" afterDir="false" />
+    <list default="true" id="082aaf8e-9cc9-40e1-96da-958739a22c76" name="Changes" comment="übungen vom TraineeCalculator bis Block 1 mit TDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traineecalculator/TraineeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/TraineeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termelement/TermElementNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traineecalculator/term/termelement/TermElementNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +66,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -190,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673524646435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="übungen vom TraineeCalculator bis Block 1 mit TDD">
+      <created>1673961733636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673961733636</updated>
+    </task>
+    <task id="LOCAL-00004" summary="übungen vom TraineeCalculator bis Block 1 mit TDD">
+      <created>1673961900372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673961900372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="projekt angelegt" />
-    <option name="LAST_COMMIT_MESSAGE" value="projekt angelegt" />
+    <MESSAGE value="übungen vom TraineeCalculator bis Block 1 mit TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="übungen vom TraineeCalculator bis Block 1 mit TDD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
